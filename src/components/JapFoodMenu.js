@@ -1,19 +1,18 @@
-const JapFoodMenu = (props) => {
-
+const JapFoodMenu = ({home,about,menu,contact}) => {
     return(
     <nav>
         <ul id="menu">
             <li>
-                <a href="#">{props.home}</a>
+                <a href="#">{home}</a>
             </li>
             <li>
-                <a href="#">{props.about}</a>
+                <a href="#">{about}</a>
             </li>
             <li>
-                <a href="#">{props.menu}</a>
+                <a href="#">{menu}</a>
             </li>
             <li>
-                <a href="#">{props.contact}</a>    
+                <a href="#">{contact}</a>    
             </li>
         </ul>
     </nav>
