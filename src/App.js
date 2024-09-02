@@ -9,6 +9,7 @@ import NumberBox from './components/NumberBox';
 import TickleBox from './components/TickleBox';
 import Dice from './components/Dice';
 import SurveyForm from './components/SurveyForm.js';
+import RandomUser from './components/RandomUser.js';  
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
       {/* <JapFood />
       <DisplayMessage whatevermessage="Hello from App.js" />
       <ImageFrame ramen={ramenImage}/> */}
+      <RandomUser />
       <SimpleCounter initialValue={1000} />
       <NumberBox initialValue = {15} />
       <AlertBox initialValue= {"Alert!"}/>
