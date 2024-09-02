@@ -8,6 +8,7 @@ import AlertBox from './components/AlertBox';
 import NumberBox from './components/NumberBox';
 import TickleBox from './components/TickleBox';
 import Dice from './components/Dice';
+import SurveyForm from './components/SurveyForm.js';
 
 function App() {
   return (
@@ -20,6 +21,7 @@ function App() {
       <AlertBox initialValue= {"Alert!"}/>
       <TickleBox message = "That Tickles!"/>
       <Dice/>
+      <SurveyForm/>
     </>
   );
 }
