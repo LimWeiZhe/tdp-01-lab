@@ -10,6 +10,7 @@ import TickleBox from "./components/TickleBox";
 import Dice from "./components/Dice";
 import SurveyForm from "./components/SurveyForm.js";
 import RandomUser from "./components/RandomUser.js";
+import Users from "./components/Users.js";
 
 function App() {
   return (
@@ -18,12 +19,14 @@ function App() {
       <DisplayMessage whatevermessage="Hello from App.js" />
       <ImageFrame ramen={ramenImage}/> */}
       <RandomUser />
+
       <SimpleCounter initialValue={1000} />
       <NumberBox initialValue={15} />
       <AlertBox initialValue={"Alert!"} />
       <TickleBox message="That Tickles!" />
       <Dice />
       <SurveyForm />
+      <Users />
     </>
   );
 }
